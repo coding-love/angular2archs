@@ -1,0 +1,2 @@
+<strong *ngIf="loading">Loading...</strong>
+<app-reports-list [hidden]="loading" [reports]="reports | async"></app-reports-list>
